@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+.best h1 {
+    font-family: "Caveat", cursive;
+    font-weight: 1000;
+    color: brown;
+    text-align: center;
+    justify-content: space-between;
+}
+.best .util {
+    position: absolute;
+    top: 15px; right: 0;
+    display: flex;
+    content: '';
+    justify-content: space-between;
+    top: 0; right: 10%;
+    margin-left: 5px;
+}
+.best a {
+    margin: 10px;
+}
+.best a > img {
+    width: 25px; height: 25px;
+}
+.gnb {
+    font-family: "Noto Sans KR", sans-serif;
+}
+.gnb ul {
+    font-weight: 800;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 110px 15px;
+}
+.gnb li a:hover {
+    background: rgba(100, 148, 237, 0.664);
+}
+.gnb .menu {
+    color: brown;
+}
+.gnb img {
+    width: 100%; height: 100vh;
+}
+.title {
+    width: 1200px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    position: relative;
+}
+.title > figure {
+    width: 50%;
+    height: 550px;
+}
+.title > figure > img {
+    width: 100%;
+    height: 100%;
+}
+.title h2 {
+    height: 50px;
+}
+.title p {
+    line-height: 1.7;
+    font-weight: 500;
+}
+.title span {
+    color: rgb(96, 149, 248);
+}
+.title > .title_area > a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 80px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.title > .title_area > .btn_area > a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 80px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    margin-top: 107px;
+}
+.title > .title_area > .btn_area > a:hover,
+.title > .title_area > a:hover {
+    background: #000
+}
+.title > .title_area > .btn_area > .btn_donate {
+    background: rgba(0, 0, 0, 0.678);
+}
+.title > .title_area > .btn_donate {
+    background: rgba(0, 0, 0, 0.678);
+}
+
+/* 코디제안 */
+.content {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+.content h2 {
+    margin-bottom: 20px;
+}
+.content h2 strong {
+    font-size: 35px;
+    font-family: "Caveat", cursive;
+    color: rgba(190, 190, 190, 0.486);
+}
+.content .cont_box01 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+.content .cont_box01 .codi_pic {
+    width: 32%;
+    margin-bottom: 3%;
+}
+.content .cont_box01 figure {
+    background: pink;
+    height: 420px
+}
+.content .cont_box01 figure img {
+    width: 100%;
+    height: 100%
+}
+.content .cont_box01 .text_area {
+    margin-top: 20px;
+}
+.content .cont_box01 .text_area span,
+.content .cont_box01 .text_area strong {
+    display: block;
+    margin-bottom: 15px;
+}
+.content .cont_box01 .text_area a {
+    color: brown;
+    font-weight: 600;
+}
+.content .cont_box01 .text_area a:hover {
+    background: #ff9a9a59
+}
+
+/* event  */
+.event {
+    background: red;
+    height: 360px;
+    background: linear-gradient(rgba(85, 85, 85, 0.473), rgba(134, 134, 134, 0.5)), url(../img/event.jpg) no-repeat center/cover;
+}
+.event strong {
+    font-size: 35px;
+    color: rgb(255, 161, 130);
+}
+.event h1 {
+    color: burlywood;
+    font-size: 90px;
+}
+.event p {
+    font-size: 25px;
+    color: rgb(255, 161, 130);
+    font-weight: 600;
+}
+.event .event_text {
+    padding: 91px;
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+footer {
+    background: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.637);
+    text-align: center;
+    padding: 30px 0;
+    font-weight: 300;
+    margin-top: 40px;
+}
+footer > p {
+    font-size: 10px;
+    font-weight: 600;
+}
+footer > p > strong {
+    font-size: 15px;
+}
